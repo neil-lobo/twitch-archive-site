@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Vods from "@/views/Vods.vue"
 
 Vue.use(VueRouter)
 
 const routes = [
-  { path: "/", redirect: "/vods" }
+  { path: "/", redirect: "/vods" },
+  { path: "/vods", component: Vods }
 ]
 
 const router = new VueRouter({

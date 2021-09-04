@@ -1,6 +1,5 @@
 <template>
     <v-app-bar
-        app
         flat
         color="#1A1D38"
         class="nav-bar"
@@ -23,7 +22,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 .nav-button {
     margin: 0 15px 0 15px;
 
