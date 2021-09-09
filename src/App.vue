@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <Navbar />
-        <keep-alive>
+        <keep-alive include="Vods,Chats">
             <router-view id="router-view" />
         </keep-alive>
     </div>
