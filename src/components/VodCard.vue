@@ -47,9 +47,6 @@ export default {
         dvrURL: function({subdomain, path}) {
             return `https://${subdomain}.cloudfront.net/${path}/chunked/index-dvr.m3u8`
         }
-    },
-    mounted() {
-        this.checkStatus(this.hiddenURL)
     }
 }
 </script>
