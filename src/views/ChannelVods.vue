@@ -27,7 +27,7 @@ export default {
     methods: {
         loadVods: async function() {
             this.loadingVods = true
-            const res = await fetch(`http://localhost:3000/vods/${this.$route.params.id}?sort=new`)
+            const res = await fetch(`http://192.168.2.76:3000/vods/${this.$route.params.id}?sort=new`)
             const json = await res.json();
             // console.log(json)
             this.vods = json

@@ -28,7 +28,7 @@ export default {
     },
     methods: {
         loadStreamers: async function() {
-            const res = await fetch("http://localhost:3000/streamers")
+            const res = await fetch("http://192.168.2.76:3000/streamers")
             const json = await res.json();
             console.log(json)
             this.streamers = json
